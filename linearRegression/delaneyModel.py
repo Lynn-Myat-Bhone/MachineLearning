@@ -21,20 +21,14 @@ model.fit(x_train,y_train)
 
 #prediction
 y_train_pred = model.predict(x_train)
-y_test_pred = model.predict(x_test)
-
 
 # evaluate model performance
 # for training set
 model_train_mse = mean_squared_error(y_train,y_train_pred)
 model_train_r2 = r2_score(y_train,y_train_pred)
 
-# for testing set
-model_test_mse = mean_squared_error(y_test,y_test_pred)
-model_test_r2 = r2_score(y_test,y_test_pred)
-
-table = pd.DataFrame(["LinearRegression", model_test_mse, model_test_r2, model_train_mse, model_train_r2]).transpose()
-table.columns=["Method","MSE(Train)","MSE(Test)","R2(Train)","R2(Test)"]
+table = pd.DataFrame(["LinearRegression", model_train_mse, model_train_r2]).transpose()
+table.columns=["Method","MSE(Train)","R2(Train)"]
 print(table)
 
 # Plot the CSV data and the linear regression line
