@@ -1,0 +1,61 @@
+Disclaimer : "This is just a note and Detail may not be cover.For detail, you can check statQuest on youtube.(I'm big fan of this channel:3)
+              If there is something worng in this doucment, please let me know, dont be afraid to DM me, I am also learner " 
+
+
+Which model should I use?
+   If you are struggling with that kind of questions. Then don't worry. You just need to know some basic fundamentals.
+
+    => Confusion Matrices
+
+                                     Actual 
+
+                           True             | False
+
+       predicted  Ture  | True positive     | False positive
+                  False | Flase negative    | True Negative
+
+      With Confusion Matrices you can determine which model is most suitable for you.
+
+    => Sensitivity and Specificy
+
+       -> Sensitivity = True positive/(True positive + Flase negative)
+
+       -> Specificy =  True Negative/(True Negative + Flase positive)
+
+      "" Sensitivity is the percentage of Actual positive correctly predicted ""
+      ""Specificy is the percentage of actual negative correctly predicted ""
+
+   => ROC and AUC 
+
+      First you need to define threshold for your classification.
+      Then evalute the " Confusion Matrix ".
+
+      ROC : Receiver Operator Characteristics graph (help to decide the threshold)
+
+         -> True positive rate = Sensitivity = True positive/(True positive + Flase negative)
+         -> Flase positive  rate = 1-Specificy =  True Negative/(True Negative + Flase positive)
+
+         (Flase positive rate , True positive rate) is become point in graph
+         Change the threshold you get another point.
+         Connect all points in graph and you get a ROC curve.
+         There is original line in graph. That show where *True positive rate = Flase positive rate*
+
+      AUC : Area under the curve(help to which model is better)
+
+            -> area under the curve is called AUC.
+             "The larger the curve, the better the classifier."
+
+      Sometimes people use "Precision" instead of Flase positive rate
+
+            -> Precision=  True positive/(True positive + Flase positive)
+
+            Precision : the proportion of positive results that were correctly classified.
+
+
+
+   
+
+
+
+
+    
