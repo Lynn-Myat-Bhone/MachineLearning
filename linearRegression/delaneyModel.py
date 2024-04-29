@@ -23,7 +23,6 @@ model.fit(x_train,y_train)
 y_train_pred = model.predict(x_train)
 
 # evaluate model performance
-# for training set
 model_train_mse = mean_squared_error(y_train,y_train_pred)
 model_train_r2 = r2_score(y_train,y_train_pred)
 
