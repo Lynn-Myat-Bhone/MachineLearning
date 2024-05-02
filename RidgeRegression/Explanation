@@ -1,0 +1,21 @@
+Ridge Regression
+================
+
+-> Ridge Regression is mainly use to avoid overfitting. It sacrifice a little bias to fit data.
+   
+   For linear line , Y = intercept + slope* x (least square)
+
+    => ridge = sum of all square residuals + lamda * (slope)square
+
+            where, lamda can be zero to positive infinity.When it is zero that mean ride regression line is the same as  least square line
+                   when lamda get away from zero, slope become smaller. As the larger we make lamda, the slope close to 0(become horizontal line).
+
+                   -> As the lamda large, y become less sensitive to x.
+
+ So how to we decide what value should we give to lamda. 
+ We just try a brunch of lamda and use "Cross-validataion" method. and determine which one has the lowest variance.
+
+ ***Note -> Above explaintion , we compare with linearRegression.
+            if your are compare with logistice Regression, equation should be 
+               
+               => ridge = sum of the likelihoods + lamda * (slope)square
