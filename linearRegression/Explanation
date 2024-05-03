@@ -5,7 +5,7 @@ Linear Regression is the simplest regression.
 You need to find the best fitting line. That's where "Oridinary least square (OLS)" method come in.
 
 "Oridinary least square (OLS):   1. First you need to find average of y values and cut through a line.( you get a horizontal line)  => " we name that point that line pass through on y axis called  b ".
-                                    you calculate differences between data point and line (this is called finding residuals) =>(b-y)
+                                    you calculate distance between data point and line (this is called finding residuals) =>(b-y)
                                  2.You need to for all the data points and then square each of them.   =>(b-y)squared
                                  3. Last sum of square all residuels. sum of all (b-y)squared
                                  4. Rotate your line a little bit and redo from 1 to 4 again.(Note : you already have a line so dont need to find mean again, just rotate your line and find residuals)

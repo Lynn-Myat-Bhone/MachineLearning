@@ -1,9 +1,9 @@
 Ridge Regression
 ================
 
--> Ridge Regression is mainly use to avoid overfitting. It sacrifice a little bias to fit data.
+-> Ridge Regression,technique with regularization ,is mainly use to avoid overfitting. It sacrifice a little bias to fit data.
    
-   For linear line , Y = intercept + slope* x (least square)
+   For linear line , Y = intercept + slope* x (least square)      (**Note=>slope aka coefficient)
 
     => ridge = sum of all square residuals + lamda * (slope)square
 
@@ -19,3 +19,11 @@ Ridge Regression
             if your are compare with logistice Regression, equation should be 
                
                => ridge = sum of the likelihoods + lamda * (slope)square
+==============================================================
+
+Closed-form solution 
+=====================
+Closed-form solution is one of the method to commpute Ridge regression
+   
+
+         =>theta = inverse of (XTranpose X + lamda I) XTranpose y
