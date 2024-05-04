@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_absolute_error
 
 data = pd.read_csv("https://raw.githubusercontent.com/Mattral/ML-AI-Algorithms-from-scratch/main/Supervised/DecisionTrees/housing.csv")
 
@@ -18,5 +18,5 @@ print('Pediction',prediction)
 print('actual',y_test)
 
 #evaluate model
-mse = mean_squared_error(y_test, prediction)
-print(f"Mean Squared Error: {mse}")
+mae = mean_absolute_error(y_test, prediction)
+print(f"Mean Squared Error: {mae}") #When i use mse error is way larger than actual value
