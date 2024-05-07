@@ -5,5 +5,5 @@ LassoRegression is similar to Ridge Regression.
 
     => lasso = sum of all square residuals + lamda * |slope|
 
-    difference is RidgeRegression can only shinks the slope close to 0 while 
-    LassoRegression can shinks all the way to 0.
+    difference is RidgeRegression can only shrinks the slope close to 0 while 
+    LassoRegression can shrinks all the way to 0.
