@@ -1,0 +1,6 @@
+LassoRegression
+===============
+
+LassoRegression is similar to Ridge Regression. Only differences is 
+
+    => lasso = sum of all square residuals + lamda * |slope|
