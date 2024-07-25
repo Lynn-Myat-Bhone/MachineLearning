@@ -19,4 +19,4 @@ print('actual',y_test)
 
 #evaluate model
 mae = mean_absolute_error(y_test, prediction)
-print(f"Mean Squared Error: {mae}") #When i use mse error is way larger than actual value
+print(f"Mean Squared Error: {mae}") #mse error is way larger than actual value
