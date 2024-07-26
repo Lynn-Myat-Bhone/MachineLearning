@@ -1,0 +1,23 @@
+Decision Tree(Regression)
+=============
+
+Decision Tree is a Tree like structure and  hierarchical.
+
+                        Does house has 2 bedrooms
+                                    |
+                            No  /        \ Yes
+                        Price $10000       Price $13000 
+
+That is Decision tree .
+
+When do we stop growing Decision Tree. This is important because it can cause overfitting or underfitting.    
+
+    We use Stopping Conditions for stop the tree. The most common sttopping condition is to limit the maximum depth(max_depth) of the tree.
+
+some commonly used splitting criteria in decision tree models. They are 
+
+Classification error 
+ 
+        1- (number of majority of data point / total number of data points)
+
+Geni index

@@ -1,10 +1,8 @@
-Disclaimer : "This is just a note and Detail may not be cover all the topic" 
+Disclaimer : "This is just a note and Detail may not be cover" 
 
 
 Which model should I use?
-   If you are struggling with that kind of questions. Then don't worry. You just need to know some basic fundamentals.
-
-    => Confusion Matrices
+       => Confusion Matrices
 
                                      Actual 
 
