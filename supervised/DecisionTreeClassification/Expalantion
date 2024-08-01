@@ -20,4 +20,11 @@ Classification error
  
         1- (number of majority of data point / total number of data points)
 
-Geni index
+Geni index 
+
+    probability = no. of "Yes"/total number 
+
+      gini impurities within one leaves (GL)1- (the probability of "Yes")squared - (the probability of "No")squared
+
+      total gini impurity = weight average of Gini impurities of the leaves
+                          = (total no."Yes" in leaf/total no. of data points )*GL + (total no."Yes" in leaf/total no. of data points )*GL 

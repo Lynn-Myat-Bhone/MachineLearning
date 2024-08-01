@@ -27,3 +27,17 @@ melbourne_model.fit(train_X, train_y)
 # get predicted prices on validation data
 val_predictions = melbourne_model.predict(val_X)
 print(mean_absolute_error(val_y, val_predictions))
+
+# Below function is to check mae and choose lowest mae leafnodes and condier as a beat tree size
+
+# def get_mae(max_leaf_nodes, train_X, val_X, train_y, val_y):
+#     model = DecisionTreeRegressor(max_leaf_nodes=max_leaf_nodes, random_state=0)
+#     model.fit(train_X, train_y)
+#     preds_val = model.predict(val_X)
+#     mae = mean_absolute_error(val_y, preds_val)
+#     return(mae)     
+
+# max_leaf_nodes = [5, 25, 50, 100, 250, 500]
+# scores = {leaf_size: get_mae(leaf_size, train_X, val_X, train_y, val_y) for leaf_size in max_leaf_nodes}
+# best_tree_size = min(scores, key=scores.get)
+# print(best_tree_size)
