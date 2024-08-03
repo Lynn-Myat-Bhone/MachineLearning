@@ -28,3 +28,6 @@ Geni index
 
       total gini impurity = weight average of Gini impurities of the leaves
                           = (total no."Yes" in leaf/total no. of data points )*GL + (total no."Yes" in leaf/total no. of data points )*GL 
+
+    
+    In decision trees, a lower Gini impurity is generally preferred as it indicates greater purity of the node.
