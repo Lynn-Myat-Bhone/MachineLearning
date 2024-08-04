@@ -1,0 +1,13 @@
+Categorical_variables
+====================
+
+A categorical variable takes only a limited number of values.
+You will get an error if you try to plug these variables into most machine learning models in Python without preprocessing them first.
+
+Three Approach
+    1. Drop Columns that contain categorical values.
+    2. Ordinal Encoding : assigns each unique value to a different integer.
+    3. One-Hot Encoding 
+
+Which method is the best?
+    - use MAE to compare approach, the best approcah the lower the MAE.
