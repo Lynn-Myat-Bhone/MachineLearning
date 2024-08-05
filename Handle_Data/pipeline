@@ -1,0 +1,7 @@
+Pipelines
+===========
+A critical skill for deploying (and even testing) complex models with pre-processing. Pipelines are a simple way to keep your data preprocessing and modeling code organized.
+
+Step for Pipeline
+=================
+[ Gather Data ] --> [ Clean Data ] --> [ Transform Data ] --> [ Train Model ] --> [ Make Predictions ]
