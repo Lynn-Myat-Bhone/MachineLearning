@@ -1,0 +1,17 @@
+Key Concepts
+===========
+    Ensemble Learning: Combining the predictions of multiple models to produce a more accurate result than any individual model could achieve alone.
+
+    Decision Trees: Simple models that split the data into subsets based on feature values, creating a tree-like structure of decisions. Each tree in a random forest is a weak learner.
+
+    Bagging (Bootstrap Aggregating): A technique where multiple subsets of data are created by sampling with replacement from the original dataset. Each subset is used to train a different decision tree.
+
+    Random Subspace Method: For each split in a tree, a random subset of features is considered. This introduces additional randomness and helps in making the trees less correlated.
+
+Steps in Random Forest Algorithm
+=================================
+    Create Bootstrap Samples: Generate multiple subsets of the original data by sampling with replacement.
+
+    Build Decision Trees: Train a decision tree on each bootstrap sample. When splitting nodes, only a random subset of features is considered to decide the best split.
+
+    Aggregate Predictions: For classification, each tree votes for a class, and the majority class is chosen. For regression, the mean of all tree predictions is taken.
