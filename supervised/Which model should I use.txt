@@ -1,5 +1,3 @@
-Disclaimer : "This is just a note and Detail may not be cover" 
-
 
 Which model should I use?
        => Confusion Matrices
