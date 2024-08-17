@@ -1,0 +1,9 @@
+K-nearest neighbors 
+==================
+
+kNN is a type of instance-based learning or lazy learning.The kNN algorithm intuition is very simple to understand. 
+It simply calculates the distance between a sample data point and all the other training data points.
+The distance can be Euclidean distance or Manhattan distance. Then, it selects the k nearest data points where k can be any integer.
+
+K in KNN is equal to 1 then, we only use the neighbors to define the category.
+if K = 11, then we use 11 neighbors to define..
