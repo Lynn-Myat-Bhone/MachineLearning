@@ -1,0 +1,5 @@
+NAive Bayes Classifier
+======================
+The Naive Bayes Classifier is a probabilistic machine learning algorithm based on Bayes' theorem.
+It makes predictions by calculating the probability of each class given the input features and choosing the class with the highest probability.
+It is particularly effective for text classification tasks like spam filtering.
