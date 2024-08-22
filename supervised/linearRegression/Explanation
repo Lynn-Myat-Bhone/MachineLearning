@@ -19,3 +19,6 @@ You need to find the best fitting line. That's where "Oridinary least square (OL
      
      Now you get the best fitting line .
          equation => Y = intercept + slope * x (aka least squared)
+
+                   **  y = ax + b where a and b are coeffiecent and slope**
+
