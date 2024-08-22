@@ -1,6 +1,6 @@
 
 Which model should I use?
-       => Confusion Matrices
+       => Confusion Matrices (from sklearn.metrics import confusion_matix)
 
                                      Actual 
 
@@ -20,7 +20,7 @@ Which model should I use?
       "" Sensitivity is the percentage of Actual positive correctly predicted ""
       ""Specificy is the percentage of actual negative correctly predicted ""
 
-   => ROC and AUC 
+   => ROC and AUC (from sklearn.metrics import roc_curve)
 
       First you need to define threshold for your classification.
       Then evalute the " Confusion Matrix ".
