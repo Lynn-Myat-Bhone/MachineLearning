@@ -1,0 +1,9 @@
+Choosing the correct hyperparameters
+
+1. Try lots of different hyperparameters values
+2. Fit all of them separately
+3. See how well they parameter
+4. Choose the best performing values
+
+- It is essential to use Cross-validation to avoid overfitting to the test set.
+- We can still split the data and perform cross-validation on the training set.(GridSearchCV, RandomizedSearchCV)
