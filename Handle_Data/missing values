@@ -1,5 +1,5 @@
 Missing values
-
+=============
 How to deal with Missing values-
   - Drop columns with missing values
   - Imputation : fills missing values with some numbers.
