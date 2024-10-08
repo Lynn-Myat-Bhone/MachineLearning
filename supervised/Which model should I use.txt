@@ -46,7 +46,7 @@ Which model should I use?
 
             Precision : the proportion of positive results that were correctly classified.
 
-Now you can check which model is better to use !!!!
+
 
 
 
