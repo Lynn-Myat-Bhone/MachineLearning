@@ -1,4 +1,4 @@
-Ridge Regression
+Ridge Regression (L2 Regression)
 ================
 
 -> Ridge Regression,technique with regularization ,is mainly use to avoid overfitting. It sacrifice a little bias to fit data.

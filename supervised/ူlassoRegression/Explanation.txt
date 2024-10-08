@@ -1,5 +1,5 @@
-LassoRegression
-===============
+LassoRegression (L1 Regression)
+===============================
 
 LassoRegression is similar to Ridge Regression. 
 
