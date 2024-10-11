@@ -16,7 +16,7 @@
 <span>The main ideas for Support Vector Machine are</span>
 <ol>
     <li>start with relatively small dimensions</li>
-    <li>move data into a higher dimensions</li>
+    <li>move data into a higher dimensions (transform feature = square of (original feature))</li>
     <li>find a Support Vector Classifiers that seperates the higher dimensional data into two groups</li>
 
 </ol>
