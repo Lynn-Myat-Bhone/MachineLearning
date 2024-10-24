@@ -5,8 +5,8 @@
     by combining them into a strong classifier
 </p>
 <p>Algorithm Workflow:
-    Initialize Weights:
     
+    Initialize Weights:
     Start by assigning equal weights to all the data points.
     Train Weak Classifier:
     
