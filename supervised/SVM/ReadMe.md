@@ -5,6 +5,7 @@
 </p>
 <hr>
 <h3>Support Vector Machine </h3>
+<span>SVM allows to use infinite-dimensional vector</span>
 <p>IN SVM, it square the data and place in y-axis. 
     For example, data_point is in (0.5) in x_axis(1D). 
     SVM square the number 
