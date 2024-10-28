@@ -11,6 +11,8 @@ y = data.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=123)
 
 # Create DMatrix for the training data
+#DMatrix is more memory-efficient than using traditional data formats like NumPy arrays or Pandas DataFrames, 
+# especially for large, sparse datasets.
 churn_dmatrix = xgb.DMatrix(X_train, label=y_train)
 
 # Define parameters for XGBoost
