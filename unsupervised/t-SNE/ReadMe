@@ -1,4 +1,0 @@
-<h5>t-SNE</h5>
-<p> t-SNE (t-distributed stochastic neighbor embedding) is designed to maintain the relative distances between 
-    data points when mapping from a high-dimensional space to a lower-dimensional one, making it easier to visualize
-     complex datasets.</p>
