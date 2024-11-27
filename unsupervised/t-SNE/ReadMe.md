@@ -1,4 +1,4 @@
-<h5>t-SNE</h5>
+<h5>t-SNE((t-Distributed Stochastic Neighbor Embedding))</h5>
 <p>t-SNE is a dimensionality reduction technique primarily used for visualizing high-dimensional data in two or three dimensions.</p>
 <ul>
     <li>Excellent for visualizing high-dimensional data.</li>
