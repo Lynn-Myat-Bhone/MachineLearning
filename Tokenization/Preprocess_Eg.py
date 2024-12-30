@@ -8,6 +8,7 @@ with open('Tokenization/holy_grail.txt','r')as file :
     holy_grail = file.read()
     
 words = holy_grail.split()
+
 #retail words contain alphabets only
 alpha_only = [t for t in words if t.isalpha()]
 
