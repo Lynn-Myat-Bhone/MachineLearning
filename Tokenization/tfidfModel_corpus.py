@@ -3,9 +3,10 @@ from gensim.corpora.dictionary import Dictionary
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
+
+# # Ensure necessary NLTK data is 
 # import nltk
 
-# # Ensure necessary NLTK data is downloaded
 # nltk.download('punkt')
 # nltk.download('stopwords')
 # nltk.download('wordnet')
@@ -33,10 +34,11 @@ dictionary = Dictionary([lemmatized_tokens])
 corpus = [dictionary.doc2bow(lemmatized_tokens)]
 
 # Create the TF-IDF model
-tfidf_model = TfidfModel(corpus)
+tfidf_model = TfidfModel(corpus, smartirs='nnn')
 
 # Calculate the TF-IDF weights
 tfidf_weights = tfidf_model[corpus[0]]
+
 print("TF-IDF Weights:", tfidf_weights)  # Debug print
 
 # Print the first five TF-IDF weights
